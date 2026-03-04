@@ -7,14 +7,14 @@ const team = [
   {
     name: "Fabrizio Siboldi",
     role: "Founder & Creative Director",
-    oneLiner: "Strategy + cinematic storytelling for natural brands.",
+    oneLiner: "Strategy + Beverage-focused cinematography + Cinematic storytelling for natural brands.",
     specialties: "Brand Strategy, Creative Direction, Cinematography",
     image: "/images/team-fabrizio.jpg",
   },
   {
     name: "Renzo Siboldi",
-    role: "Videographer",
-    oneLiner: "Beverage-focused cinematography + on-set execution.",
+    role: "Director of Growth & Production",
+    oneLiner: "Client acquisition + On-set execution.",
     specialties: "Product Macro, Lifestyle Shoots, Short-Form Content",
     image: "/images/team-renzo.jpg",
   },
