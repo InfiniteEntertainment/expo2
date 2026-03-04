@@ -51,6 +51,21 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
       <body className="font-sans antialiased">
+        {/* Netlify Forms detection (required for Next.js sites) */}
+        <form
+          name="expo-contact"
+          method="POST"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+          hidden
+        >
+          <input type="hidden" name="form-name" value="expo-contact" />
+          <input name="bot-field" />
+          <input type="text" name="name" />
+          <input type="email" name="email" />
+          <textarea name="message" />
+        </form>
+
         {children}
         <Analytics />
       </body>
